@@ -1,0 +1,12 @@
+. {
+    padding: 30px;
+    border: 1px solid black;
+    margin-right: 10px;
+    width: 250px;
+    background-color: turquoise;
+}
+
+.recent {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,27 @@
+body{
+	background-color:pink;
+}
+.title{
+	color:blue;
+}
+.subtitle{
+	color:red;
+}
+#contact-us:hover{
+	color:purple;
+}
+li:first-child{
+	color:red;
+}
+li:nth-child(2){
+	color:blue;
+}
+li:only-child{
+	color:steelblue;
+}
+#Google-Link"link{
+	color:blue;
+}
+#Google-Link:visited{
+	color:red;
+}

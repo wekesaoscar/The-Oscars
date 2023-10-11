@@ -1,0 +1,20 @@
+body {
+    /* background-image: url(images/flower.jpg); */
+    background-color: rgb(120, 180, 240);
+}
+
+#services-image {
+    height: 400px;
+    width: 82%;
+    background-image: url(images/logo.png);
+    /* background-repeat: repeat; */
+    background-size: contain;
+}
+
+#image {
+    background: linear-gradient(to top, red, blue);
+}
+
+#img {
+    background: radial-gradient(to bottom left, red, blue);
+}

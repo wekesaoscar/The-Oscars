@@ -1,0 +1,27 @@
+body {
+    background-image: url(../images/flower.jpg);
+}
+
+#title {
+    color: rgb(186, 133, 9);
+}
+
+.subtitle {
+    color: rgb(219, 168, 50);
+}
+
+#oscars {
+    height: 500px;
+    width: 450px;
+    border-radius: 50px;
+}
+
+#services-image {
+    height: 400px;
+    width: 88%;
+    background: url(../images/school.png);
+    background-repeat: repeat;
+
+    /* background-repeat: no-repeat;
+    background-color: blueviolet; */
+}

@@ -1,0 +1,56 @@
+body {
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    color: blue;
+}
+
+h5 {
+    color: brown;
+}
+
+.contact {
+    background-color: lightgreen;
+    color: black;
+    padding: 50px;
+    display: flex;
+}
+
+
+
+.head img {
+    width: 300px;
+    height: 250px;
+    display: flex;
+    border-radius: 20px;
+    margin-left: 600px;
+}
+
+.head {
+    padding: 10px;
+    margin-right: 5px;
+    width: 850px;
+}
+
+.contact1 {
+    display: flex;
+}
+
+.contact3 {
+    padding: 30px;
+    border: 1px solid lightgreen;
+    margin-right: 10px;
+    width: 250px;
+}
+
+h4 {
+    color: blueviolet;
+    font-size: large;
+}
+
+.social-links {
+    font-size: 30px;
+}

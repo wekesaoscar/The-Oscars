@@ -1,0 +1,21 @@
+body {
+    background-color: turquoise;
+}
+
+.copyright0 {
+    background-color: brown;
+    color: white;
+}
+
+.copyright1 {
+    color: gold;
+}
+
+li {
+    color: red;
+}
+
+
+h2:hover {
+    color: goldenrod;
+}
