@@ -9,6 +9,8 @@
     align-items: center;
     flex-direction: column;
     border: 10px solid rgba(255, 255, 255, 1);
+    width: 80%; 
+    margin: 0 auto;
 }
 
 .header {
@@ -60,3 +62,15 @@ img {
         color: brown;
     }
 }
+
+/* Example of a media query for screens smaller than 768px (tablets and phones) */
+@media screen and (max-width: 768px) {
+    .container {
+      width: 100%;
+    }
+    
+    .sidebar {
+      display: none; /* Hide sidebar on smaller screens */
+    }
+  }
+  
