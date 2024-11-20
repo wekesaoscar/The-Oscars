@@ -1,0 +1,110 @@
+/* Prevent horizontal scroll */
+html, .body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#title {
+    text-transform: uppercase;
+}
+
+.body {
+    background-color: rgba(0, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 10px solid rgba(0, 255, 255, 1);
+    width: 100%; 
+    margin: 0 auto;
+}
+
+.header {
+    text-transform: uppercase;
+    color: rgba(138, 43, 226, 1);
+    text-align: center;
+    text-align: justify;
+    font-size: large;
+    font-style: italic;
+    padding-top: 20%;
+}
+
+img {
+    display: flex;
+    height: 550px;
+    width: 650;
+
+    border: 10px solid rgba(138, 43, 226, 1);
+    padding: 5px 5px;
+    margin: 40px 20px;
+    /* float: left; */
+}
+
+#services-image {
+    height: 400px;
+    width: 100%;
+
+    display:flex ;
+    background: url(https://th.bing.com/th/id/OIP.wfRQ0moblrjBlHRC3InpTAHaEK?pid=ImgDet&w=474&h=266&rs=1);
+    background-repeat: repeat;
+}
+
+.birth {
+    background: url(https://img.lovepik.com/png/20231018/Golden-positive-way-pink-birthday-balloon-border-pink-balloons-celebration_243222_wh1200.png);
+    display: flex;
+    align-content: center;
+    padding: 0% 10%;
+    border: 10px solid rgba(138, 43, 226, 1);
+}
+
+.footer {
+    background-color: gray;
+    color: white;
+
+    padding:0.5% 40%;
+
+    big {
+        color: brown;
+    }
+}
+
+.birth {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .header {
+    flex-basis: 24%; /* One items per row */
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Ensure borders and padding don't cause overflow */
+    text-align: center;
+  }
+
+  .dell {
+    flex-basis: 24%; /* One items per row */
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Ensure borders and padding don't cause overflow */
+  }
+  
+  /* On smaller screens, make each item take up full width */
+  @media only screen and (max-width: 480px) {
+   .body, .header, .dell {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+    .header {
+      flex-basis: 100%;
+    }
+
+    .dell {
+        flex-basis: 100%;
+      }
+  }
+  
+
+

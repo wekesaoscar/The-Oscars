@@ -1,0 +1,29 @@
+h1 {
+    text-align: justify;
+    text-transform: capitalize;
+    color: rgba(138, 43, 226, 1);
+}
+
+.body {
+    
+    background: url(https://i.pinimg.com/originals/4a/f3/35/4af335b08704d705f1e73cda4fa3c510.jpg);
+    border: 10px solid rgba(138, 43, 226, 1);
+    padding: 5%;
+}
+
+.message {
+    font-size: xx-large;
+    font-weight: 1000;
+    color: blue;
+}
+
+.footer {
+    background-color: gray;
+    color: white;
+
+    padding:0.5% 40%;
+
+    big {
+        color: brown;
+    }
+}                                                                                                                                                                       
