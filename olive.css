@@ -1,0 +1,94 @@
+/* Prevent horizontal scroll */
+html, .body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    width: 100%; /* Ensure full width */
+}
+
+#title {
+    text-transform: uppercase;
+}
+
+.body {
+    background-color: rgba(0, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 10px solid rgba(255, 255, 255, 1);
+    width: 100%; /* Changed from 80% to 100% to remove side spaces */
+    margin: 0 auto;
+    box-sizing: border-box; /* Ensure borders and padding don't cause overflow */
+}
+
+.birth {
+    background: url(https://img.lovepik.com/png/20231018/Golden-positive-way-pink-birthday-balloon-border-pink-balloons-celebration_243222_wh1200.png);
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next row */
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+    border: 10px solid rgba(138, 43, 226, 1);
+}
+
+.header, .olive {
+    flex: 0 0 32%; /* Ensure exactly 3 items per row */
+    box-sizing: border-box; /* Prevents overflow */
+    margin: 5px; /* Small margin to avoid spacing issues */
+    text-align: center;
+}
+
+.header {
+    text-transform: uppercase;
+    color: rgba(138, 43, 226, 1);
+    width: 300px;
+    text-align: center;
+    text-align: justify;
+    font-size: large;
+    font-style: italic;
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: 450px;
+
+    border: 10px solid rgba(138, 43, 226, 1);
+    padding: 10px 10px;
+    margin: 20px auto;
+}
+
+#services-image {
+    height: 400px;
+    width: 100%;
+
+
+    display:flex ;
+    background: url(https://th.bing.com/th/id/OIP.wfRQ0moblrjBlHRC3InpTAHaEK?pid=ImgDet&w=474&h=266&rs=1);
+    background-repeat: repeat;
+}
+
+.footer {
+    background-color: gray;
+    color: white;
+
+    padding:0.5% 40%;
+
+    big {
+        color: brown;
+    }
+}
+
+/* On smaller screens, make each item take full width */
+@media only screen and (max-width: 768px) {
+    .header, .olive {
+        flex: 0 0 100%; /* Ensure one per row */
+        max-width: 100%; /* Ensure no extra spaces */
+        margin: 5px 0; /* Remove left/right margin */
+    }
+}
